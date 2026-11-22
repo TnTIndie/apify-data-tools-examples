@@ -1,5 +1,5 @@
 // HTTP Request Tool: GET/POST via Proxy ($1/1K requests)
-// HTTP request tool: status code, headers, body, parsed JSON, final URL, redirects, size and response time for each request. Takes URLs with GET, POST, PUT, PATCH, DELETE or HEAD, custom headers, body and optional proxy country. Use it to call an API or check URLs from a workflow.
+// HTTP request tool for APIs: send GET, POST, PUT, PATCH, DELETE or HEAD and get status, headers, body, parsed JSON, redirects and timing. Takes URLs or a batch of requests, each with its own method, headers, params, body and label, plus proxy country and callback URL. Use it to call APIs.
 // Apify page: https://apify.com/tamnt67/http-request-tool
 // Setup: npm install apify-client, then set the APIFY_TOKEN environment variable
 // (free Apify account: https://console.apify.com/sign-up, token under Settings > API & Integrations).

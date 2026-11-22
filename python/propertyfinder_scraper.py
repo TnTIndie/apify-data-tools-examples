@@ -16,10 +16,10 @@ client = ApifyClient(os.environ["APIFY_TOKEN"])
 run_input = {
     "startUrls": [
         {
-            "url": "https://www.propertyfinder.ae/en/search?c=1&l=1&ob=mr"
+            "url": "https://www.propertyfinder.ae/en/search?c=2&l=1&t=1&ob=mr"
         }
     ],
-    "maxItems": 100
+    "maxItems": 60
 }
 
 run = client.actor("tamnt67/propertyfinder-scraper").call(run_input=run_input)

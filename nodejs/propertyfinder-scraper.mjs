@@ -10,10 +10,10 @@ const client = new ApifyClient({ token: process.env.APIFY_TOKEN });
 const input = {
     "startUrls": [
         {
-            "url": "https://www.propertyfinder.ae/en/search?c=1&l=1&ob=mr"
+            "url": "https://www.propertyfinder.ae/en/search?c=2&l=1&t=1&ob=mr"
         }
     ],
-    "maxItems": 100
+    "maxItems": 60
 };
 
 const run = await client.actor('tamnt67/propertyfinder-scraper').call(input);

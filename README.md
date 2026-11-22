@@ -41,7 +41,7 @@ Examples: [Python](python/craigslist_scraper.py) · [Node.js](nodejs/craigslist-
 
 Flipkart products scraper: title, brand, price, MRP, discount, rating, rating and review counts, stock and Flipkart Assured flag. Takes keywords or Flipkart search and category URLs (India). Use it to track Flipkart prices and discounts or compare products in a category.
 
-Examples: [Python](python/flipkart_scraper.py) · [Node.js](nodejs/flipkart-scraper.mjs) · Ready-made runs: [Track wireless earphones prices on Flipkart India](https://apify.com/tamnt67/flipkart-scraper/examples/flipkart-earphones-price-tracker) · [Track smartwatch prices on Flipkart](https://apify.com/tamnt67/flipkart-scraper/examples/flipkart-smartwatch-prices) · [Export the headphones category on Flipkart](https://apify.com/tamnt67/flipkart-scraper/examples/flipkart-headphones-category)
+Examples: [Python](python/flipkart_scraper.py) · [Node.js](nodejs/flipkart-scraper.mjs) · Ready-made runs: [Track wireless earphones prices on Flipkart India](https://apify.com/tamnt67/flipkart-scraper/examples/flipkart-earphones-price-tracker) · [Track smartwatch prices on Flipkart](https://apify.com/tamnt67/flipkart-scraper/examples/flipkart-smartwatch-prices)
 
 ### [Hepsiburada Products Scraper: Prices, Ratings, Sellers](https://apify.com/tamnt67/hepsiburada-scraper)
 
@@ -97,7 +97,7 @@ Examples: [Python](python/tiki_scraper.py) · [Node.js](nodejs/tiki-scraper.mjs)
 
 Property Finder listings scraper: price, rent period, property type, bedrooms, bathrooms, size, location, coordinates, amenities, agency and photos. Takes search URLs or a country, purpose and type for the UAE, Saudi Arabia, Qatar, Bahrain and Egypt. Use it to track Dubai property prices.
 
-Examples: [Python](python/propertyfinder_scraper.py) · [Node.js](nodejs/propertyfinder-scraper.mjs)
+Examples: [Python](python/propertyfinder_scraper.py) · [Node.js](nodejs/propertyfinder-scraper.mjs) · Ready-made runs: [Dubai apartments for rent: prices from Property Finder](https://apify.com/tamnt67/propertyfinder-scraper/examples/dubai-apartments-for-rent-prices)
 
 ### [Redfin Listings Scraper: US Homes for Sale ($1/1K homes)](https://apify.com/tamnt67/redfin-scraper)
 
@@ -293,7 +293,7 @@ Examples: [Python](python/github_trending_scraper.py) · [Node.js](nodejs/github
 
 ### [HTTP Request Tool: GET/POST via Proxy ($1/1K requests)](https://apify.com/tamnt67/http-request-tool)
 
-HTTP request tool: status code, headers, body, parsed JSON, final URL, redirects, size and response time for each request. Takes URLs with GET, POST, PUT, PATCH, DELETE or HEAD, custom headers, body and optional proxy country. Use it to call an API or check URLs from a workflow.
+HTTP request tool for APIs: send GET, POST, PUT, PATCH, DELETE or HEAD and get status, headers, body, parsed JSON, redirects and timing. Takes URLs or a batch of requests, each with its own method, headers, params, body and label, plus proxy country and callback URL. Use it to call APIs.
 
 Examples: [Python](python/http_request_tool.py) · [Node.js](nodejs/http-request-tool.mjs) · Ready-made runs: [Check status codes and bodies of a list of URLs](https://apify.com/tamnt67/http-request-tool/examples/check-api-and-page-responses)
 
