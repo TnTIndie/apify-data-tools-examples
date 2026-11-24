@@ -71,13 +71,19 @@ Examples: [Python](python/netflix_prices_scraper.py) · [Node.js](nodejs/netflix
 
 Rakuten products scraper for Rakuten Ichiba Japan: name, price, Rakuten points, review score and count, shop, shipping fee, genre and URL. Takes keywords in Japanese or English, or rakuten.co.jp search and genre URLs. Use it to research prices and shops on Rakuten Japan.
 
-Examples: [Python](python/rakuten_scraper.py) · [Node.js](nodejs/rakuten-scraper.mjs) · Ready-made runs: [Find top-reviewed wireless earphones on Rakuten Japan](https://apify.com/tamnt67/rakuten-scraper/examples/rakuten-japan-top-reviewed-earphones) · [Compare coffee maker prices on Rakuten Japan](https://apify.com/tamnt67/rakuten-scraper/examples/rakuten-japan-coffee-maker-prices) · [Export a Rakuten Japan category with prices](https://apify.com/tamnt67/rakuten-scraper/examples/rakuten-japan-category-products)
+Examples: [Python](python/rakuten_scraper.py) · [Node.js](nodejs/rakuten-scraper.mjs) · Ready-made runs: [Find top-reviewed wireless earphones on Rakuten Japan](https://apify.com/tamnt67/rakuten-scraper/examples/rakuten-japan-top-reviewed-earphones) · [Compare coffee maker prices on Rakuten Japan](https://apify.com/tamnt67/rakuten-scraper/examples/rakuten-japan-coffee-maker-prices)
 
 ### [Shopify Products Scraper (prices, variants, stock)](https://apify.com/tamnt67/shopify-products-scraper)
 
 Shopify products scraper: title, vendor, product type, tags, price, compare-at price, variants with SKUs, availability and images. Takes Shopify store domains or collection URLs. Use it to monitor a competitor store's catalog, prices and discounts.
 
 Examples: [Python](python/shopify_products_scraper.py) · [Node.js](nodejs/shopify-products-scraper.mjs) · Ready-made runs: [Track a competitor's Shopify catalog and prices](https://apify.com/tamnt67/shopify-products-scraper/examples/shopify-competitor-catalog-prices)
+
+### [Shopify Store Scraper: Theme, Apps & Tech Stack ($1.5/1K)](https://apify.com/tamnt67/shopify-store-scraper)
+
+Shopify store scraper: theme, 45+ installed apps, tracking IDs, payment options, socials, location and product count, plus products with variants, collections and catalog stats. Takes store domains or product URLs. Use it to research competitors and qualify Shopify leads by app or theme.
+
+Examples: [Python](python/shopify_store_scraper.py) · [Node.js](nodejs/shopify-store-scraper.mjs) · Ready-made runs: [Detect a Shopify store's theme and installed apps](https://apify.com/tamnt67/shopify-store-scraper/examples/shopify-store-theme-and-apps)
 
 ### [Subito.it Ads Scraper: Italy Classified Listings ($2/1K)](https://apify.com/tamnt67/subito-scraper)
 
@@ -249,9 +255,15 @@ Examples: [Python](python/rss_feed_reader.py) · [Node.js](nodejs/rss-feed-reade
 
 Substack posts scraper: title, subtitle, author, publish date, free or paid, word count, likes, comments, restacks and full text of free posts. Takes Substack newsletter URLs, custom domains included. Use it to analyze a newsletter's archive and engagement.
 
-Examples: [Python](python/substack_scraper.py) · [Node.js](nodejs/substack-scraper.mjs) · Ready-made runs: [Export the post archive of a Substack newsletter](https://apify.com/tamnt67/substack-scraper/examples/substack-newsletter-archive) · [Search a Substack newsletter's posts by keyword](https://apify.com/tamnt67/substack-scraper/examples/substack-search-posts) · [Find the most liked posts of a Substack newsletter](https://apify.com/tamnt67/substack-scraper/examples/substack-most-liked-posts)
+Examples: [Python](python/substack_scraper.py) · [Node.js](nodejs/substack-scraper.mjs) · Ready-made runs: [Export the post archive of a Substack newsletter](https://apify.com/tamnt67/substack-scraper/examples/substack-newsletter-archive) · [Find the most liked posts of a Substack newsletter](https://apify.com/tamnt67/substack-scraper/examples/substack-most-liked-posts)
 
 ## SEO and marketing
+
+### [App Store ASO Keyword Scraper: Difficulty & Ranks ($2/1K)](https://apify.com/tamnt67/app-store-aso-scraper)
+
+App Store ASO keyword scraper: difficulty and opportunity scores, top 10 ranked apps, related keywords and your app's rank, plus search results, app details, reviews and top charts. Takes keywords, app IDs or developer IDs and a country. Use it to pick ASO keywords and track app ranks.
+
+Examples: [Python](python/app_store_aso_scraper.py) · [Node.js](nodejs/app-store-aso-scraper.mjs) · Ready-made runs: [App Store keyword difficulty and top ranked apps](https://apify.com/tamnt67/app-store-aso-scraper/examples/app-store-keyword-difficulty)
 
 ### [App Store Search Scraper: ASO Keyword Ranks ($1/1K apps)](https://apify.com/tamnt67/app-store-search-scraper)
 
@@ -303,6 +315,12 @@ PDF text extractor: full text per PDF or per page, page count, word count, file 
 
 Examples: [Python](python/pdf_text_extractor.py) · [Node.js](nodejs/pdf-text-extractor.mjs) · Ready-made runs: [Extract text from PDF links, page by page](https://apify.com/tamnt67/pdf-text-extractor/examples/pdf-to-text-by-page)
 
+### [SEC EDGAR Filings & Financials Scraper ($3/1K)](https://apify.com/tamnt67/sec-edgar-scraper)
+
+SEC EDGAR filings scraper: 10-K, 10-Q, 8-K filings, XBRL financials and ratios, Form 4 insider trades, 13F holdings, 13D/13G stakes, Form D raises, full-text search hits. Takes tickers, CIKs, company names or a search phrase. Use it to track filings, insiders and fundamentals.
+
+Examples: [Python](python/sec_edgar_scraper.py) · [Node.js](nodejs/sec-edgar-scraper.mjs) · Ready-made runs: [SEC Form 4 insider trades for any ticker](https://apify.com/tamnt67/sec-edgar-scraper/examples/sec-insider-trading-form-4)
+
 ### [Website Screenshot: Full Page, PNG/JPEG, Bulk ($2.5/1K)](https://apify.com/tamnt67/website-screenshot)
 
 Website screenshot capture with real Chrome: screenshot download link, page title, final URL, HTTP status, image size and format. Takes a list of URLs, full page or visible area, PNG or JPEG, any viewport width (desktop or mobile). Use it to archive web pages or check how sites render.
@@ -310,6 +328,12 @@ Website screenshot capture with real Chrome: screenshot download link, page titl
 Examples: [Python](python/website_screenshot.py) · [Node.js](nodejs/website-screenshot.mjs) · Ready-made runs: [Take full-page screenshots of a list of websites](https://apify.com/tamnt67/website-screenshot/examples/full-page-website-screenshots)
 
 ## AI and documents
+
+### [FDA Drug Safety & Clinical Trials Scraper ($3/1K)](https://apify.com/tamnt67/fda-clinical-trials-scraper)
+
+FDA and ClinicalTrials.gov scraper: trials with sponsor, phase, status, enrollment, eligibility, sites; FDA drug labels, FAERS adverse events, recalls and label interaction checks. Takes drug names, conditions, filters, NCT IDs or a search URL. Use it to track pharma pipelines and drug safety.
+
+Examples: [Python](python/fda_clinical_trials_scraper.py) · [Node.js](nodejs/fda-clinical-trials-scraper.mjs) · Ready-made runs: [Search recruiting clinical trials by condition](https://apify.com/tamnt67/fda-clinical-trials-scraper/examples/clinical-trials-recruiting-search)
 
 ### [Image OCR: Image to Text, 100+ Languages ($3/1K)](https://apify.com/tamnt67/image-ocr)
 
@@ -329,13 +353,13 @@ Examples: [Python](python/app_store_reviews_scraper.py) · [Node.js](nodejs/app-
 
 Google Ads Transparency Center scraper for Google ads: advertiser name and ID, creative ID, ad format, first and last shown dates, image or preview link and ad URL. Takes advertiser names, AR IDs or website domains, with country, format and date filters. Use it to research competitor ads.
 
-Examples: [Python](python/google_ads_transparency_scraper.py) · [Node.js](nodejs/google-ads-transparency-scraper.mjs) · Ready-made runs: [See which Google ads Nike runs in Germany](https://apify.com/tamnt67/google-ads-transparency-scraper/examples/competitor-google-ads-germany) · [See a competitor's Google ads in the US by domain](https://apify.com/tamnt67/google-ads-transparency-scraper/examples/competitor-ads-by-domain-us) · [List a competitor's video ads on Google](https://apify.com/tamnt67/google-ads-transparency-scraper/examples/competitor-video-ads)
+Examples: [Python](python/google_ads_transparency_scraper.py) · [Node.js](nodejs/google-ads-transparency-scraper.mjs) · Ready-made runs: [See which Google ads Nike runs in Germany](https://apify.com/tamnt67/google-ads-transparency-scraper/examples/competitor-google-ads-germany) · [See a competitor's Google ads in the US by domain](https://apify.com/tamnt67/google-ads-transparency-scraper/examples/competitor-ads-by-domain-us)
 
 ### [Google Play Reviews Scraper (ratings, text, dev replies)](https://apify.com/tamnt67/google-play-reviews-scraper)
 
 Google Play reviews scraper: star rating, review text, author, date, thumbs up, app version and developer reply. Takes package names or Play Store URLs, any country and language, with sort order and star filter. Use it to analyze Android app reviews and user feedback.
 
-Examples: [Python](python/google_play_reviews_scraper.py) · [Node.js](nodejs/google-play-reviews-scraper.mjs) · Ready-made runs: [Analyze competitor app reviews on Google Play](https://apify.com/tamnt67/google-play-reviews-scraper/examples/google-play-competitor-app-reviews) · [Find 1-star reviews of an app on Google Play](https://apify.com/tamnt67/google-play-reviews-scraper/examples/google-play-negative-reviews) · [Collect Google Play reviews from India](https://apify.com/tamnt67/google-play-reviews-scraper/examples/google-play-reviews-india)
+Examples: [Python](python/google_play_reviews_scraper.py) · [Node.js](nodejs/google-play-reviews-scraper.mjs) · Ready-made runs: [Analyze competitor app reviews on Google Play](https://apify.com/tamnt67/google-play-reviews-scraper/examples/google-play-competitor-app-reviews) · [Find 1-star reviews of an app on Google Play](https://apify.com/tamnt67/google-play-reviews-scraper/examples/google-play-negative-reviews)
 
 ### [Skool Communities Scraper ($2/1K communities)](https://apify.com/tamnt67/skool-communities-scraper)
 
